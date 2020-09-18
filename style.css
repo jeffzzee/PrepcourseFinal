@@ -1,0 +1,59 @@
+h1 {
+  text-align:center;
+  color: rgb(76, 117, 155);
+  background-color: black;
+  padding: 10px;
+}/*assign color, alignment and padding to heading type 1 */
+h2 {
+  text-size: 18px;
+  text-align:center;
+  height: 20px;
+  margin: 5px 10px 30px 10px;
+    }/*assign style to sub heading */
+
+/*begin pseudo class selector definition for links */
+a:link {
+    color:rgb(32, 30, 197);
+    }/*standard starting color of a link */
+a:visited {
+  color: rgb(206, 80, 206);
+  }/*changes color to this once clicked */
+a:hover{
+  color:rgb(247, 19, 2);
+  }/*this is the color it turns to while being hovered over */
+a:active {
+  color:rgb(245, 241, 31);
+  }/*this is the color of the link while the link is active */
+h3{
+  font-size: 18px;
+}
+
+.contact {
+  color: rgb(0, 0, 0);
+}/*specific for the contact class */
+p {
+  font-size: 16px;
+}
+main{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}/*sets a list of preferred font options */
+body {
+  background: lightsteelblue;
+}/*sets the background for the whole body portion of the site */
+article p {
+  font-size: 16px;
+}/*affects only article paragraphs */
+article ul {
+  color: rgb(250, 33, 4);
+  font-size: 16px;
+}/*applies to all unordered lists */
+footer li {
+  font-size: 12px;
+}/*addresses list items in the footer */
+footer p {
+  color: black;
+  font-size: 12px
+}/*selects only paragraphs in the footer */
+.bottom {
+  text-align:center;
+}/*selects a specific class "bottom" to center */
